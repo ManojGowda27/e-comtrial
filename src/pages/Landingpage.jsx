@@ -1,16 +1,16 @@
-import React from 'react'
-import Announcements from '../components/Announcements'
-import Navbar from '../components/Navbar'
-import Slider from '../components/Slider'
+import React from "react";
+import Announcements from "../components/Announcements";
+import Navbar from "../components/Navbar/Navbar";
+import Slider from "../components/Slider";
 
 const Landingpage = () => {
   return (
     <div>
-    <Announcements />
-    <Navbar />
-    <Slider/>
+      <Announcements />
+      <Navbar />
+      <Slider />
     </div>
-  )
-}
+  );
+};
 
-export default Landingpage
+export default Landingpage;
